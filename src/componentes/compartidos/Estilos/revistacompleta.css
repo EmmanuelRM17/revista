@@ -1,0 +1,45 @@
+.revista-completa {
+    padding: 50px 0;
+  }
+  
+  .revista-completa .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .revista-completa .title {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+  
+  .revista-completa .subtitle {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 1.5em;
+    font-weight: normal;
+  }
+  
+  .revista-completa .content {
+    color: #ffffff;
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  
+  .revista-completa .content p {
+    margin-bottom: 20px;
+  }
+  
+  .revista-completa .content a {
+    color: #3273dc;
+    text-decoration: none;
+  }
+  
+  .revista-completa .content a:hover {
+    text-decoration: underline;
+  }
+  

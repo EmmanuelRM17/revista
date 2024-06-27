@@ -1,0 +1,26 @@
+.navbar {
+    background-color: white;
+  }
+  
+  .navbar-item,
+  .navbar-link,
+  .navbar-burger span {
+    color: black !important;
+  }
+  
+  .navbar-burger span {
+    background-color: black;
+  }
+  
+  .navbar-dropdown {
+    background-color: white;
+  }
+  
+  .navbar-dropdown .navbar-item {
+    color: black !important;
+  }
+  
+  .navbar-dropdown .navbar-item:hover {
+    background-color: #f5f5f5;
+  }
+  

@@ -1,0 +1,113 @@
+/* Estilos para el componente Revistas */
+
+.section {
+    background-color: #6a6f77;
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .title {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+  
+  .subtitle {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 1.5em;
+    font-weight: normal;
+  }
+  
+  .columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .column {
+    flex: 0 0 30%;
+    max-width: 30%;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(166, 155, 228, 0.2);
+  }
+  
+  .card-content {
+    padding: 20px;
+    flex-grow: 1;
+  }
+  
+  .card-title {
+    color: #0c0c0c;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    color: #0e0a0a;
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+  
+  .card-link {
+    margin-top: auto;
+    display: flex;
+  }
+  
+  .card-link button {
+    width: 100%;
+    color: #ffffff;
+    background-color: #3273dc;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+  }
+  
+  .card-link button:hover {
+    background-color: #295bb0;
+  }
+  .imagen-grid{
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar-item{
+    color: rgb(192, 185, 185);
+  }
+  .btn-descargar{
+    background-color: rgb(194, 74, 74);
+    width: 100%;
+    color: white;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+  }
